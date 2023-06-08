@@ -1,0 +1,501 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Inter&family=Lexend+Deca:wght@200&family=Poppins&family=Roboto:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Fraunces:ital,wght@1,300&family=Inter&family=Lexend+Deca:wght@200&family=Poppins&family=Roboto:ital,wght@1,300&display=swap');
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background-image: url(images/image-header.jpg); 
+    background-size: cover;
+    height: 90vh;
+    background-repeat: no-repeat;
+}
+
+.head{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav{
+    padding: 40px 40px 0px 100px;
+}
+
+.nav a{
+    padding: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    font-family: barlow;
+}
+
+.awesome{
+    visibility: hidden;
+}
+
+.sun{
+    padding: 0px;
+    font-size: 50px;
+    color: #fff;
+}
+
+button{
+    border-radius: 50px;
+    border: 0px;
+    padding: 12px;
+    font-size: 25px;
+}
+
+.arrow{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.create{
+    margin: 40px;
+    color: #fff;
+    text-align: center;
+    font-size: 40px;
+}
+
+.egg{
+    display: flex;
+    
+}
+
+.white{
+    text-align: center;
+    padding: 120px;
+}
+
+.white h2{
+    font-size: 40px;
+    text-align: left;
+}
+
+.white p{
+    font-size: 20px;
+    text-align: left;
+    color: hsl(232, 10%, 55%);
+}
+
+.whit{
+    padding: 120px;
+
+}
+
+.whit h2{
+    font-size: 40px;
+    text-align: left;
+}
+
+.whit p{
+    font-size: 20px;
+    text-align: left;
+    color: hsl(232, 10%, 55%);
+}
+
+.egg button{
+    font-size: 18px;
+    background-color: #fff;
+    font-weight: bolder;
+    text-decoration-line: underline;
+    text-decoration-color: hsl(51, 100%, 49%);
+    text-decoration-thickness: 2px;
+}
+
+
+.cup button{
+    font-size: 18px;
+    background-color: #fff;
+    font-weight: bolder;
+    text-decoration-line: underline;
+    text-decoration-color: hsl(7, 99%, 70%);
+    text-decoration-thickness: 2px;
+}
+
+.yellow{
+    background-image: url(images/image-transform.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 120%;
+    height: 70vh;
+}
+
+.cup{
+    display: flex;
+}
+
+.cup .yellow{
+    background-image: url(images/image-stand-out.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 70vh;
+}
+
+.ao{
+    display: flex;
+}
+
+.nam{
+    padding: 30px;
+    margin: 100px;
+    letter-spacing: 2px;
+    line-height: 20px;
+}
+
+.ao p{
+ text-align: center;
+ font-style: 22px;
+}
+
+.ao h3{
+    text-align: center;
+    padding-top: 350px;
+    font-size: 27px;
+}
+
+.apple{
+    background-image: url(images/image-graphic-design.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 68%;
+    height: 70vh;
+    color: hsl(167, 40%, 24%);
+}
+
+.orange{
+    background-image: url(images/image-photography.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 70%;
+    height: 70vh;
+    color: hsl(198, 62%, 26%);
+}
+
+.client{
+    text-align: center;
+    margin: 30px;
+    padding: 20px;
+}
+
+.client p{
+    font-size: 18px;
+    padding-bottom: 30px;
+}
+
+.client h2{
+    letter-spacing: 5px;
+    
+    color:hsl(210, 4%, 67%)
+}
+
+.name p{
+    font-size: 14px;
+    color:  hsl(212, 27%, 19%);
+}
+
+.name h3{
+    font-weight:bolder;
+}
+
+.testimonies{
+    display: flex;
+    /* margin: 50px;
+    padding: 50px; */
+    text-align: center;
+}
+
+.jen{
+    padding: 50px;
+}
+
+
+.testimonies img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin: 0 0 60px 0;
+}
+
+.diabetes{
+    display: flex;
+    width: 100%;
+}
+
+.cs{
+    display: flex;
+    width: 100%;
+}
+
+.mo{
+    display: flex;
+    width: 100%;
+}
+
+.milk{
+    background-image: url(images/image-gallery-milkbottles.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 50vh;
+}
+
+.orang{
+    background-image: url(images/image-gallery-orange.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 50vh;
+}
+
+.cone{
+    background-image: url(images/image-gallery-cone.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 50vh;
+}
+
+.suggar{
+    background-image: url(images/image-gallery-sugarcubes.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 50vh;
+}
+
+footer{
+    text-align: center;
+    background-color: aquamarine;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    display: inline-block;
+    color: hsl(168, 34%, 41%);
+}
+
+footer h4{
+    font-size: 30px;
+    margin: 30px 30px 0px 30px;
+    padding: 30px;
+}
+
+.icon {
+    display: flex;
+    text-align: center;
+    text-decoration: none;
+    margin: 0px 0px 90px 730px;
+}
+
+.icon a{
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    padding: 5px;
+    color: hsl(168, 34%, 41%);
+}
+
+.fi{
+    display: flex;
+    margin: 40px 0px 40px 700px;
+}
+
+svg{
+    text-align: center;
+    padding: 20px;
+}
+
+@media only screen and (max-width :480px){
+    header{
+        background-image: url(image/image-header.jpg); 
+        background-size: cover;
+        height: 60vh;
+        background-repeat: no-repeat;
+        /* display: flex; */
+    }
+    
+    .nav{
+        visibility: hidden;
+    }
+    .arrow{
+
+    }
+
+    .awesome{
+        visibility: visible;
+        display: block;
+        position: absolute;
+        font-size: 18px;
+        color: #fff;
+        top: 40px;
+        right: 30px;
+        text-align: end;
+
+    }
+
+    .sun{
+        padding:  0px 15px ;
+        font-size: 25px;
+        padding-bottom: 0px;
+    }
+
+    .create{
+        margin: 5px;
+        font-size: 20px;
+    }
+    
+    .egg{
+        display: flex;
+        flex-direction: column-reverse; 
+    }
+    
+    .white{
+        padding: 15px;
+    }
+    
+    .white h2{
+        font-size: 30px;
+        text-align: center;
+    }
+    
+    .white p{
+        text-align: center;
+        padding: 10px;
+    }
+
+    .cup{
+        display: block;
+    }
+
+    .whit{
+        padding: 15px;
+    
+    }
+    
+    .whit h2{
+        font-size: 30px;
+        text-align: center;
+    }
+    
+    .whit p{
+        text-align: center;
+    }
+    
+    .yellow{
+        height: 30vh;
+        width: 100%;
+        background-image: url(image/image-transform.jpg);
+    }
+
+    
+    
+    .cup .yellow{
+        background-image: url(image/image-stand-out.jpg);
+        width: 100%;
+        height: 30vh;
+    }
+
+.ao{
+    display: block;
+}
+
+.nam{
+    padding: 30px;
+    margin: 0px;
+}
+
+
+.apple{
+    background-image: url(image/image-graphic-design.jpg);
+    width: 100%;
+    height: 70vh;
+}
+
+.orange{
+    background-image: url(image/image-photography.jpg);
+    width: 100%;
+    height: 70vh;
+}
+
+.client{
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+}
+
+.testimonies{
+    display: block;
+    text-align: center;
+}
+
+.jen{
+    padding: 0px;
+}
+
+
+.testimonies img{
+    width: 80px;
+    height: 80px;
+    margin: 0 0 40px 0;
+}
+
+.diabetes{
+    display: block;
+    width: 100%;
+}
+
+.mo{
+    display: flex;
+}
+
+.cs{
+    display: flex;
+}
+
+
+.milk{
+    background-image: url(image/image-gallery-milkbottles.jpg);
+    width: 50%;
+    height: 20vh;
+}
+
+.orang{
+    background-image: url(image/image-gallery-orange.jpg);
+    width: 50%;
+    height: 20vh;
+}
+
+.cone{
+    background-image: url(image/image-gallery-cone.jpg);
+    width: 50%;
+    height: 20vh;
+}
+
+.suggar{
+    background-image: url(image/image-gallery-sugar-cubes.jpg);
+    width: 50%;
+    height: 20vh;
+}
+
+footer h4{
+    margin: 0px 0px 0px 0px;
+}
+
+.icon {
+    margin: 0px 0px 0px 40px;
+    visibility: visible;
+}
+
+.fi{
+    margin: 40px 0px 10px 40px;
+}
+
+svg{
+    visibility: visible;
+}
+
+}
